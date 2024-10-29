@@ -30,9 +30,6 @@ header > h1{
     padding: 15px 20px;
     font-family: sans-serif;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .badge{
@@ -55,6 +52,12 @@ header > h1{
     right: -30px;
 }
 
+.sim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .result{
     font-size: 40px;
     color: white;
